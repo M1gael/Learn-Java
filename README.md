@@ -1,2 +1,2 @@
 # JavaProds
-Java projects that test functions and logic
+My Personal Java projects that test functions and logic
