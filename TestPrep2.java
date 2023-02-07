@@ -27,7 +27,7 @@ public class TestPrep2
 				}
 
 		
-			System.out.println("Would you like to go again? ");
+			System.out.println("Would you like to go again? [Y/N]");
 			
 			switch(keyboard.next().charAt(0))
 			{
