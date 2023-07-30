@@ -14,14 +14,5 @@ public class FormatterCase
     rNum = kb.nextDouble();
     
     System.out.println("The formatted number is  " + formatter.format(rNum));
-
-
-
-
-
-
-
-
-
     }
 }		

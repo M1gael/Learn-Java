@@ -28,11 +28,8 @@ public class IfElse2
                     else
                     {
                     System.out.println("There is no such department");
-                    }
-                    
+                    }       
             }
-    
-    
     }
     
 }

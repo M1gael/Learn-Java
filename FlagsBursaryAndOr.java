@@ -45,8 +45,5 @@ public class FlagsBursaryAndOr
 			{
 			System.out.println("no buck 4 u");
 			}
-	
-	
-	
     }
 }		

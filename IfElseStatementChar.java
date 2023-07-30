@@ -26,11 +26,5 @@ public class IfElseStatementChar
 			System.out.println("The what ?");
 			System.out.println(keyboard.nextLine());
 			}
-
-
-
-
-
-
     }
 }		
