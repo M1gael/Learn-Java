@@ -59,8 +59,5 @@ public class IDnum
 		System.out.println("Year is " + iYear);
 
 		System.out.println("Your birthday is on " +  iDay + " " +sMonthName + " " + sYearFull);
-
-
-
     }
 }		
