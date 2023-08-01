@@ -31,7 +31,7 @@ for (int i = 1 ; i<=20 ; i++) {
     System.out.print("Again? y/n: " );
     System.out.print("");
 
-    sYN = kb.nextLine();                                                        //only way to let it run normally
+    sYN = kb.nextLine();                                                        // *bug* only way to let it run normally
     sYN = kb.nextLine();
 
 
