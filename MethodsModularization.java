@@ -1,8 +1,6 @@
-package modularization;
-
 import java.util.Scanner;
 
-public class temp {
+public class MethodsModularization {
 
 
     public static int CalculateSum(int number1 , int number2){

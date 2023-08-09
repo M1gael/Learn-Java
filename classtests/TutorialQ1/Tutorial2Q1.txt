@@ -1,0 +1,29 @@
+//Q1.1
+public static double CalculateDiscount(double price){
+    double newPrice = price*0.75;
+    return newPrice ;
+}
+
+double updatedPrice = CalculateDiscount(origionalPrice);
+
+
+//Q1.2
+public static int CalculateTicketPrice(int ticketCount){
+    int ticketPrice = 0;
+
+    if (ticketCount < 5){
+        ticketPrice = 125;
+    }
+    else if (5 <= ticketCount <=24){
+        ticketPrice = 100;
+    }
+    else if (ticketCount >= 25){
+        ticketPrice = 90;
+    }
+
+    ticketPrice = ticketPrice*ticketCount;
+    
+    return ticketPrice;
+}
+
+int totalCost = CalculateTicketPrice(soldTickets);
