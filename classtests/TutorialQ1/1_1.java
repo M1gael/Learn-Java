@@ -15,6 +15,7 @@ public class 1_1 {
         System.out.print("What is the origional price of the blouse? : ");
         origionalPrice = kb.nextInt();
 
-        System.out.println("The discounted price is: " + CalculateDiscount(origionalPrice));
+        double updatedPrice = CalculateDiscount(origionalPrice);
+        System.out.println("The discounted price is: " + updatedPrice);
     }
 }
