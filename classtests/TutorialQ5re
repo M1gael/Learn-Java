@@ -1,0 +1,61 @@
+package classtests;
+import java.util.Scanner;
+
+public class TutorialQ5re{
+
+    public static final double PI = Math.PI; //declared PI
+
+    public static double calcVolume(double r double h){
+        return PI * Math.pow(r, 2) * h;
+    }
+
+    public static double calcArea(double r, double h){          // formula for area on question paper is incorrect , correct version :  2πrh + 2πr^2
+        return 2*(PI*(Math.pow(r , 2))) + (2*PI*r)*h;
+    }
+
+    public static void displayValues(double radius . double height , double area , double volume){
+        System.out.println("The cylender base radius is : " + radius );
+        System.out.println("The cylender height is : " + height );
+        
+        if (area != 0){
+             System.out.println("The cylender area is : " + area );
+        }
+
+        if (volume != 0){
+            System.out.println("The cylender volume is : " + volume );
+        }
+    }
+
+    public static void main(String[] args){
+        Scanner kb = new Scanner(System.in);
+        char option ='';
+        boolean again = truel
+        double cylVolume = 0 , cylArea = 0 ;
+        
+
+
+        System.out.print("What is the cylinder height? : ");
+        double cylH = kb.nextDouble(); kb.nextLine(); //Clear buffer
+
+        System.out.print("What is the base radius of the cylinder? : ");
+        double cylR = kb.nextDouble(); kb.nextLine(); //Clear buffer
+
+        do {
+        System.out.print("What would you like to calculate?  Area : A , Volumw : V ");
+        option = kb.next().charAt(0);
+        option = Character.toUppercase(option);
+
+        switch(option){
+            case 'V' : cylVolume = calcVolume(cylH , cylR); break;
+            case 'A' : cylArea = calcArea(cylR , cylH); break;
+            case 'N' : again = false ;break;
+            default : System.out.println("Incorrect option");
+        }
+        
+        }while (again == true)
+
+        /*double 
+        double 
+        displayValues(cylR , cylH , cylArea , cylVolume );*/
+    }
+}
