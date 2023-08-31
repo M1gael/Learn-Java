@@ -1,8 +1,8 @@
-package practice;
+package practice.CT1;
 
 import java.util.Scanner;
 
-public class WeightlossCT1{
+public class WeightlossQ2{
 
     public static void main(String[] args){
         double rWeightCurrent = 0.0 , rWeightTotal = 0.0 ;

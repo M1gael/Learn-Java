@@ -1,4 +1,4 @@
-package classtests;
+package classtests.TutorialQ5;
 import java.util.Scanner;
 
 public class TutorialQ5{
