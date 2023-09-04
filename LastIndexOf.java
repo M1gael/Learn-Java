@@ -12,22 +12,11 @@ public class LastIndexOf {
     }
 }
 
-/*    ==Alternative 1==
-    sentence.indexOf('p' , 15) 
-    [The second paramater tells the method where to start.]
- 
-    
-    ==Alternative 2==
-    sentence.indexOf("Pie") 
-    [Returns the index or position of the first occurrence of the specified text or string.]
- 
+/*    ==Alternatives (Same as indexOf)==
 
-    ==Alternative 3==
-    sentence.indexOf("Pie" , 10) 
-    [ Receives two parameters. The first parameter is the part of the string you are looking for and
-    the second parameter is the index from where to start looking at]
-
-
+sentence.lastIndexOf('p' , 15) 
+sentence.lastIndexOf("pie") 
+sentence.lastIndexOf("pie" , 15) 
 
 
 */
