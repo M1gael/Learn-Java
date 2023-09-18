@@ -25,11 +25,16 @@ public class A2023_09_08 {
     public static int searchStudent(int studentNr , int[] studentNo){
         for(int i = 0 ; i < studentNo.length ; i++){
             if (studentNr == studentNo[i]){
-                return studentNo[i]
+                return i;
             }
         }
     }
 
+
+
+    public static void displaySearchResults(int[] StudentNo , int[] , String[]){
+        System.out.println("Student Number :" +);
+    }
 
     public static void main(String[] args){
         Random random = new Random();
