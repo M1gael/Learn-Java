@@ -1,5 +1,6 @@
+package Tests.ST2_2023;
 import java.util.Scanner;
-package Tests.ST2_2023_09_29;
+
 
 public class Q4 {   
 
