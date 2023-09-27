@@ -1,4 +1,4 @@
-package classtests.TutorialQ3;
+package Tests.Tutorial.Tutorial.TutorialQ3;
 import java.util.Random;
 
 public class TutorialQ3 {

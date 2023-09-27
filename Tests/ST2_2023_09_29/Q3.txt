@@ -1,0 +1,26 @@
+==3.1.1==
+String[] courseNames = new String[courseFees.length];
+
+==3.1.2==
+courseFees[2] = courseFees[2]*1.1;
+
+==3.1.3==
+System.out.println("Course Name: " + courseNames[courseNames.length - 1]);
+System.out.println("Course Fees: " + courseFees[courseFees.length - 1]);
+
+==3.2.1==
+if (findLearnership(vacancies, postSearch)) {
+    System.out.println("Vacancy found!");
+} else {
+    System.out.println("Vacancy not found.");
+}
+
+==3.2.2==
+public static boolean findLearnership(String[] vacancies, String postSearch) {
+    for (String vacancy : vacancies) {
+        if (vacancy.equals(postSearch)) {
+            return true; // Match found, return true
+        }
+    }
+    return false; // No match found, return false
+}
