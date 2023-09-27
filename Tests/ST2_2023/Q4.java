@@ -20,8 +20,9 @@ public class Q4 {
                 arLine[i] = '*';
             }
         }
+        
         for (int i = 0 ; i < arLine.length ; i++){
-            System.out.print(arLine[i]);
+            System.out.print(Character.toUpperCase(arLine[i]));
         }
 
     }
