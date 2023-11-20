@@ -20,7 +20,7 @@ public class TestStudent {
         stud.setName(name);
         stud.setAge(age);
 
-        System.out.println("Your name is " + stud.getName() + " & you are " + stud.getAge() + "year(s) old");
+        System.out.println("Your name is " + stud.getName() + " & you are " + stud.getAge() + " year(s) old");
 
     }
 }
