@@ -1,7 +1,7 @@
 package ObjectsClasses;
 
 public class Car {
-    // Declaration of class data members (properties)//D
+    // Declaration of class data members (properties)
     String make;
     String model;
     int year;
