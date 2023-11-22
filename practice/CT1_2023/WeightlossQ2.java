@@ -1,4 +1,4 @@
-package practice.CT1;
+package practice.CT1_2023;
 
 import java.util.Scanner;
 
