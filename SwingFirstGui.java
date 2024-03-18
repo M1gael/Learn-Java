@@ -93,7 +93,7 @@ public class SwingFirstGui {
     The showConfirmDialog() method is commonly used when you provide the user with a question that yield a YES, NO, or CANCEL answer.
     */
 
-    int option = JOptionPane.showConfirmDialog(null, “Question”);
+    int option = JOptionPane.showConfirmDialog(null, "Question");
 
     /*
     When a button is clicked, the method returns an option value.
