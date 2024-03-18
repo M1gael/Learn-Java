@@ -79,8 +79,8 @@ public class SwingFirstGui {
     
     String name = JOptionPane.showInputDialog("What is your name");
     
-    String 3num = JOptionPane.showInputDialog("Enter 3 Numbers Seperated by a Space");
-    String[] numberString = 3num.split(" ")
+    String snum = JOptionPane.showInputDialog("Enter 3 Numbers Seperated by a Space");
+    String[] numberString = snum.split(" ");
     int n1 = Integer.parseInt(numberString[0]);
     int n2 = Integer.parseInt(numberString[1]);
     int n3 = Integer.parseInt(numberString[2]);
