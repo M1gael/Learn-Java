@@ -24,6 +24,11 @@ public class SwingFirstGui_2 {
 
         JPanel group1Panel = new JPanel();
         //Use the JPanel class to create container panels for organizing other components.
+
+        myButton.setForeground(Color.RED);
+        //Customizing Elements
+        
+        
     }
 
 }
