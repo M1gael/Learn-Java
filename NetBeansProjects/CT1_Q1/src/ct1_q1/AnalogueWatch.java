@@ -12,7 +12,7 @@ public AnalogueWatch(char , char , Hand , Hand , Hand){
 
 }
 
-public AnalogueWatch(char , char , char , char , char , int ,int ,int){
+public AnalogueWatch(char , char , char , char , char , int ,int ,int){}
 
 }
 

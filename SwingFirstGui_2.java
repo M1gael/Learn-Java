@@ -28,6 +28,10 @@ public class SwingFirstGui_2 {
         myButton.setForeground(Color.RED);
         //Customizing Elements
         
+
+        //Adding elements to the panel
+        group1Panel.add(myButton);
+        
         
     }
 

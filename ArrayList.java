@@ -5,7 +5,7 @@ It provides a dynamic way to store collections of objects, allowing you to add o
  */
 
 public class ArrayList {
-    ArrayList<String> names = new ArrayList<>();  // Creates an empty ArrayList to hold Strings
+    ArrayList<String> names = new ArrayList<>(); // Creates an empty ArrayList to hold Strings
 
     /*
     add(element): Appends the specified element to the end of the list.
@@ -14,8 +14,5 @@ public class ArrayList {
 
     names.add("Alice");  // Adds "Alice" to the end
     names.add(0, "Bob");  // Inserts "Bob" at index 0
-
-
-
 
 }
