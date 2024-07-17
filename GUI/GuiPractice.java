@@ -1,3 +1,4 @@
+package GUI;
 import javax.swing.*;
 public class GuiPractice {
     public static void main(String[] args){
