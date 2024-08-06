@@ -1,0 +1,4 @@
+*.class
+*.txt
+/NetBeansProjects/TestVehicles/nbproject/private/
+/NetBeansProjects/Account/nbproject/private/
